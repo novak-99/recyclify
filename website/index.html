@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recyclify Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Recyclify</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="video.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>You have the </h2> 
+          <h3>Power To fix this!</h3>
+          <p>The refusal to recycle waste causes pollution, emission of greenhouse gases, destruction of habitats and loss of finite resources. Using Recyclify’s powerful AI, we can put a stop to these deadly effects.</p>
+          <a href="mission.html">Explore</a>
+
+        </div>
+
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </section class="showcase">
+
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="leaderboard.html">Leaderboard</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          
+        </ul>
+      </div>
+      
+      <script>
+          const menuToggle = document.querySelector('.toggle');
+          const showcase = document.querySelector('.showcase');
+
+          menuToggle.addEventListener('click', () => {
+
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+      </script>
+</body>
+</html>

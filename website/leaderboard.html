@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Leader Board using HTML CSS and Javascript</title>
+	<link rel="stylesheet" href="leader.css">
+</head>
+<body>
+	
+  <header>
+  <h1 class="logo">Recyclify</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="leaderboard.html">Leader Board</a></li>
+      <li><a href="mission.html">Mission</a></li>
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+
+<div class="wrapper">
+	<div class="lboard_section">
+		<div class="lboard_tabs">
+			<div class="tabs">
+				<ul>
+					<li data-li="today">Today</li>
+					<li class="active" data-li="month">Month</li>
+					<li data-li="year">Year</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="lboard_wrap">
+			<div class="lboard_item today" style="display: none;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span> Charles John</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 95%"></div>
+						</div>
+					</div>
+					<div class="points">
+						195 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>Alex Mike</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="points">
+						185 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>Johnson</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 60%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						160 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>Rosey</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 30%"></div>
+						</div>
+					</div>
+					<div class="points">
+						130 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_7.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>Cammy Lin</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 10%"></div>
+						</div>
+					</div>
+					<div class="points">
+						110 points
+					</div>
+				</div>
+			</div>
+			<div class="lboard_item month" style="display: block;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span> Alex Mike</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 95%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1195 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_3">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>Johnson</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1185 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>Charles John</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 70%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						1160 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_5">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>Scarlett Angela</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 50%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1130 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_4">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>Rosey</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 30%"></div>
+						</div>
+					</div>
+					<div class="points">
+						1110 points
+					</div>
+				</div>
+			</div>
+			<div class="lboard_item year" style="display: none;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_5">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span>Scarlett Angela</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 90%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2195 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_4">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>Rosey</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 85%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2185 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_3">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>Johnson</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 65%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						2160 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>Charles John</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 30%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2130 points
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>Alex Mike</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 10%"></div>
+						</div>
+					</div>
+					<div class="points">
+						2110 points
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+<footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>Recyclify is the ultimate recycling hub. We leverage powerful Artificial Intelligence to make recycling simple and fun for everyone. We understand that recycling can be complicated and inconvenient at times, so we created Recyclify to eliminate this confusion. </p>
+            <div class="social">
+              <a href="#"><span class="fa fa-facebook-f"></span></a>
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href="#"><span class="fa fa-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fa fa-map-marker"></span>
+              <span class="text">San Jose, California</span>
+            </div>
+            <div class="phone">
+              <span class="fa fa-phone"></span>
+              <span class="text">(408)-505-0521</span>
+            </div>
+            <div class="email">
+              <span class="fa fa-envelope"></span>
+              <span class="text">Marc_M@recyclify.tech</span>
+            </div>
+            <div class="email">
+              <span class="fa fa-envelope"></span>
+              <span class="text">Ashwin_S@recyclify.tech</span>
+            </div>
+            <div class="email">
+              <span class="fa fa-envelope"></span>
+              <span class="text">Ritam_C@recyclify.tech</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Ⓒ Recyclify |</span>
+          <span> 2021 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
